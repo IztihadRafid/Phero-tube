@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-10">
+    <div class="flex justify-center p-5"><button class="bg-sky-600 px-10 py-5 rounded-lg text-white hover:bg-blue-800"><a href="/index.html">Back to Home Page</a></button></div>
+    
+    <div class="p-10 bg-red-300 border-amber-400">
+        <h1 class="text-3xl">Discuss the scope of var, let, and const</h1><br>
+        <p>var: Has function scope. It is hoisted to the top of its function, meaning it can be used before it's declared. If declared outside any function, it becomes a global variable.<br>
+
+            let: Has block scope, meaning it is limited to the block (enclosed by curly braces) where it's declared. It is not hoisted in a way that allows it to be used before the block.<br>
+            
+            const: Also has block scope, similar to let, but it additionally cannot be reassigned after declaration. However, the values they hold (if objects or arrays) can still be modified.<br>
+            
+            Understanding these scoping rules helps prevent unintended variable reassignments and contributes to more predictable code behavior.<br></p>
+    </div>
+    <div class="p-10 bg-red-300">
+        <h1 class="text-3xl">Tell us the use cases of null and undefined</h1>
+        <p>
+            null is used to represent the intentional absence of any object value, while undefined typically indicates an<br>uninitialized or missing value in JavaScript.<br></p>
+    </div>
+    <div class="p-10 bg-red-300">
+        <h1 class="text-3xl">What do you mean by REST API?</h1>
+        <p>REST stands for Representational State Transfer, and it is an architectural style for designing networked applications. A<br> RESTful API (Application Programming Interface) is a set of rules and conventions for building and interacting with web<br> services that adhere to the principles of REST.<br>
+
+            In a REST API:<br>
+            
+            1. Resources: Everything is treated as a resource, and each resource is uniquely identified by a Uniform Resource Identifier (URI). Resources can represent data entities or services.<br><br>
+            
+            2. Statelessness: Each request from a client to a server must contain all the information needed to understand and fulfill <br>that request. The server should not store any information about the client's state between requests.<br><br>
+            
+            3. Representation: Resources can have multiple representations, such as JSON or XML. Clients interact with these <br>representations to manipulate the state of resources.<br><br>
+            
+            4. Uniform Interface: The API should have a uniform and consistent interface, including standard conventions for naming <br>resources, using standard HTTP methods (GET, POST, PUT, DELETE), and returning standardized responses.<br>
+            
+            5. Stateless Communication: The communication between the client and server is stateless, meaning each request from a client <br>to a server must contain all the information needed to understand and fulfill that request.<br><br>
+            
+            RESTful APIs are widely used in web development and are the standard for building scalable and maintainable web services.<br> They rely on the HTTP protocol for communication, making them simple and widely adopted.</p>
+    </div>
+  
+</body>
+</html>
